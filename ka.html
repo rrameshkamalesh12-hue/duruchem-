@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durachem Inc.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0055a5;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('hero-image.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    .product-card img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .contact {
+      background: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer {
+      background: #002244;
+      color: #bbb;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Durachem Inc.</h1>
+    <p>Innovating Waterproofing & Paint Solutions</p>
+  </header>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section class="hero" id="home">
+    <h2>Protecting Surfaces, Building Trust</h2>
+    <p>Explore our durable range of waterproofing and paint solutions.</p>
+  </section>
+  
+  <section class="container" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="duraguard-neo.jpg" alt="Duraguard Neo">
+        <h3>Duraguard Neo</h3>
+        <p>Advanced waterproofing solution with long-lasting durability.</p>
+      </div>
+      <div class="product-card">
+        <img src="crackfix-pro.jpg" alt="CrackFix Pro">
+        <h3>CrackFix Pro</h3>
+        <p>Fix cracks like a pro with our specialized crack filling solution.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>?? Durachem Inc., Chennai, India</p>
+    <p>?? +91 9994274584</p>
+    <p>?? info@durachem.com</p>
+  </section>
+  
+  <footer>
+    <p>© 2025 Durachem Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
